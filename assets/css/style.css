@@ -2,14 +2,14 @@
 *  {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px; 
+    font-size: 18px; 
     }
 
 
 body {
-    background-image: url();
-    margin-bottom: 60px;
-    padding-top: 60px;
+    background-image: url("../imgs/background.jpg");
+    /* margin-bottom: 60px;
+    padding-top: 60px; */
     }
 
 
@@ -24,16 +24,18 @@ body {
     }  */  
 
 .body-container {
-    /* max-width: 960px; */
+   
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 50px;
     margin-bottom: 40px;
-   /*   background-color: lightblue;*/ 
-
 }
 
+
+
+
+
 .info-header {
-    width: 95%;
+   
     margin-top: 50px;
     border: 1px solid darkgray;
     padding: 15px;
@@ -43,8 +45,13 @@ body {
 
 #myPicture {
     width: 200px;
-    margin: 0px 20px 10px 0px;
+    margin: 0px 15px 8px 0px;
     float: left;
+}
+
+p {
+    line-height: 1.5em;
+
 }
 
  /* css for footer */
@@ -121,7 +128,6 @@ body {
 @media screen and (max-width: 992px) {
 
     .portfolio-link {
-        position: relative;
         width: 350px;
         height: 350px;
         margin: auto;
@@ -132,25 +138,17 @@ body {
     .portfolio-pic {
         width: 350px;
         height: 350px;
-        margin: auto;    
-        display: block;
-        /* margin-bottom: 30px; */
-        position: relative;
+        
     }
         
     
     .title {
-        position: absolute;
         bottom: 40px;
-        text-align: center;
         width: 350px;
         margin: 0 auto;
         padding-top: 15px;
         padding-bottom: 15px;
-        font-size: 18px;
-        background: rgb(144, 238, 144);
-        text-decoration: none;
-        color: black;
+       
         
     }
 
