@@ -77,6 +77,17 @@ p {
      margin-top: 10px;
 }
 
+/* css for submit.html */
+
+.submit-body {
+    margin-top: 60px;
+}
+
+
+#submit-heading {
+    color: red;
+}
+
 /* css for portfolio.html */
 
 .portfolio-link {
@@ -117,6 +128,16 @@ p {
 .title:focus {
     background: red;
     color: white;
+}
+
+/* future page css */
+
+.future-body {
+    margin-top: 60px;
+}
+
+#future-heading {
+    color: yellow;
 }
 
  
